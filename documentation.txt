@@ -1,0 +1,14 @@
+# Check if there are 2 entries for H12 output
+
+file=rats_neutrality_H12_pi.txt
+
+python ~/Jensen_response/scripts/count_fields_Pi_S.py ${file} tmpOut.txt 
+mv tmpOut.txt ${file} 
+
+
+# Check if there are 17 entries for H12 output, otherwise discard line: 
+
+file=rats_neutrality_H12_snps.txt
+
+python ~/Jensen_response/scripts/count_fields.py ${file} tmpOut.txt 
+mv tmpOut.txt ${file}

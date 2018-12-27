@@ -17,7 +17,7 @@ for i in `seq 1 1000`; do
 
 echo $i
 
-~/./msms/bin/msms 29 1 -t 402 -r 2616.092 5153846 -eN 1.847518 2.018913 -eN 1.905437 0.6335697 -eN 1.906619 3.65721 -eN 1.908983 306.6525 > $file
+~/./msms/bin/msms 29 1 -t 402 -r 26.16 5153846  -G 7.54E-2 -eG 341572.5 1.07E-4 > $file
 
 
 # proceed with analyzing the sweep                                   
